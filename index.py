@@ -9,7 +9,7 @@ image_folder = "google_images"
 output_csv = "predictions.csv"
 
 predictor = Predictor(endpoint_id, api_key=api_key)
-image_files = [f for f in os.listdir(image_folder) if f.endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif'))]
+image_files = [f for f in os.listdir(image_folder) if f.endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif'))][:200]
 total_images = len(image_files)
 
 with open(output_csv, mode='w', newline='') as file:
