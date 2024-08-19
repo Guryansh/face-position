@@ -11,12 +11,17 @@ Landing.AI Model for Face Position Prediction using Classification
 ## Features
 
 - Distinguishes Left, Front, Right Position of Human Face
-- -Supports multiple image formats jpeg, jpg, png
+- Supports multiple image formats jpeg, jpg, png
 
 
-## Steps Followed
-![img.png](img.png)
+## Methodology
 
+![img_2.png](img_2.png)
+
+## Description
+
+- Number of Images= 24 (Front=8, Left=8, Right=8)
+- Supports multiple image formats jpeg, jpg, png
 
 ## Live link
 https://app.landing.ai/predict/eb43103c-7b67-40b6-bdcd-dbacd6b434de
