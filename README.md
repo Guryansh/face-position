@@ -21,7 +21,21 @@ Landing.AI Model for Face Position Prediction using Classification
 ## Description
 
 - Number of Images= 24 (Front=8, Left=8, Right=8)
-- Supports multiple image formats jpeg, jpg, png
+- Can test multiple using script in index.py
+
+## Usage
+- Give folder name in image_folder
+- Result filename in output_csv
+```bash
+image_folder = <folderName>
+output_csv = <resultCSV>
+```
+
+## Example
+```python
+image_folder = "google_images"
+output_csv = "predictions.csv"
+```
 
 ## Live link
 https://app.landing.ai/predict/eb43103c-7b67-40b6-bdcd-dbacd6b434de
