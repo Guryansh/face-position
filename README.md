@@ -1,5 +1,5 @@
 
-# Topsis Package
+# Face Position
 
 Landing.AI Model for Face Position Prediction using Classification
 
@@ -14,27 +14,9 @@ Landing.AI Model for Face Position Prediction using Classification
 - -Supports multiple image formats jpeg, jpg, png
 
 
-## Installation
+## Steps Followed
+![img.png](img.png)
 
-Install the package with following command
-
-```bash
-  pip install Topsis-Guryansh-102218044
-```
-    
-## Usage
-- Give folder name in image_folder
-- Result filename in output_csv
-```bash
-image_folder = <folderName>
-output_csv = <resultCSV>
-```
-
-## Example
-```python
-image_folder = "google_images"
-output_csv = "predictions.csv"
-```
 
 ## Live link
 https://app.landing.ai/predict/eb43103c-7b67-40b6-bdcd-dbacd6b434de
